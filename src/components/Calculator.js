@@ -227,9 +227,7 @@ export default function Calculator() {
   };
 
   return (
-    <div
-      className={`min-h-screen flex items-center justify-center bg-[#e6e6e8]`}
-    >
+    <div className={`h-screen flex items-center justify-center bg-[#e6e6e8]`}>
       <div
         className={`w-80 rounded-3xl pt-5 ${
           isDarkMode ? "bg-[#23252c] text-white" : "bg-white text-black"
